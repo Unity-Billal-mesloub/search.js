@@ -1,6 +1,6 @@
 # Component Search
 
-Next version of Component's [search-api](https://github.com/component/search-api). Instead of having a dedicated search server, a JSON file of [crawled](https://github.com/component/crawler.js) components is used in both the client and server instead. This library is available in both the browser and node.js.
+Next version of Component's [search-api](https://github.com/Unity-Billal-mesloub/search-api). Instead of having a dedicated search server, a JSON file of [crawled](https://github.com/Unity-Billal-mesloub/crawler.js) components is used in both the client and server instead. This library is available in both the browser and node.js.
 
 The search algorithm is currently very rudimentary. Please advise!
 
@@ -23,27 +23,3 @@ If you want to use a callback instead like the browser API, wrap `search` in `co
 
 The browser API is the same except with a callback instead.
 
-## License
-
-(The MIT License)
-
-Copyright (c) 2014 segmentio &lt;team@segment.io&gt;
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-'Software'), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
